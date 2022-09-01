@@ -11,7 +11,7 @@ su betty
 
 - 1-who_am_i : prints all the groups the current user is part of.
 ~~~~
-id -un
+whoami
 ~~~~
 
 - 2-groups : prints all the groups the current user is part of.

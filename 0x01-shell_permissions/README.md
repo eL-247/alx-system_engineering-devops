@@ -48,7 +48,7 @@ chmod u+x hello
 - 6-multiple_permissions : adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
 
 ~~~~
-chmod ug+x o+x hello
+chmod ug+x o+r hello
 ~~~~
 
 
@@ -129,7 +129,7 @@ chgrp school hello
 - 100-change_owner_and_group : changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
 
 ~~~~
-chown vinvent:staff
+chown vincent:staff
 ~~~~
 
 
@@ -137,7 +137,7 @@ chown vinvent:staff
 - 101-symbolic_link_permissions : changes the owner and the group owner of _hello to vincent and staff respectively *The file ~_hello~ is a symbolic link*.
 
 ~~~~
-chown -h vinvent:staff _hello
+chown -h vincent:staff _hello
 ~~~~
 
 
